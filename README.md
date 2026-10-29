@@ -17,9 +17,10 @@ franck-david-elagage/
 │   └── images/
 ├── ASSETS.md                Sources et licences des images
 ├── robots.txt
-├── .nojekyll
-└── .github/workflows/pages.yml
+└── .nojekyll
 ```
+
+Site en ligne : https://hervelombardo693-creator.github.io/franck-david-elagage/
 
 ## Personnaliser le site
 
@@ -70,8 +71,8 @@ puis ouvrir http://localhost:8000.
    git push -u origin main
    ```
 3. Sur GitHub : **Settings → Pages**.
-4. Dans **Build and deployment → Source**, choisir **GitHub Actions**.
-5. Ouvrir l'onglet **Actions** et vérifier que le workflow « Déploiement GitHub Pages » se termine en vert.
+4. Dans **Build and deployment → Source**, choisir **Deploy from a branch**, puis la branche `main` et le dossier `/ (root)`.
+5. Ouvrir l'onglet **Actions** et vérifier que le déploiement « pages build and deployment » se termine en vert.
 6. Ouvrir l'adresse publiée : `https://UTILISATEUR.github.io/franck-david-elagage/`.
 7. Vérifier que les images, les liens internes et les pages légales fonctionnent sous cette adresse (tous les chemins sont relatifs).
 
