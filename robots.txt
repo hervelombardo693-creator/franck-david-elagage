@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Ajouter la ligne suivante une fois l'adresse publique définitive connue et le sitemap créé :
+# Sitemap: https://utilisateur.github.io/nom-du-depot/sitemap.xml
